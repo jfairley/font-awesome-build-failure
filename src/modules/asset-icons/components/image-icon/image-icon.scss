@@ -1,0 +1,6 @@
+@import '../asset-icon-base/asset-icon-base';
+
+:host {
+    @extend %icon-host;
+    color: pink;
+}

@@ -1,0 +1,15 @@
+<span [ngSwitch]="assetType">
+    <audio-clip-icon *ngSwitchCase="'audio_clip'" [inheritColor]="inheritColor"></audio-clip-icon>
+    <audio-icon *ngSwitchCase="'audio'" [inheritColor]="inheritColor"></audio-icon>
+    <collection-icon *ngSwitchCase="'collection'" [inheritColor]="inheritColor"></collection-icon>
+    <document-icon *ngSwitchCase="'document'" [inheritColor]="inheritColor"></document-icon>
+    <image-icon *ngSwitchCase="'image'" [inheritColor]="inheritColor"></image-icon>
+    <package-icon *ngSwitchCase="'package'" [inheritColor]="inheritColor"></package-icon>
+    <project-icon *ngSwitchCase="'project'" [inheritColor]="inheritColor"></project-icon>
+    <timeline-icon *ngSwitchCase="'timeline'" [inheritColor]="inheritColor"></timeline-icon>
+    <timeline-clip-icon *ngSwitchCase="'clip'" [inheritColor]="inheritColor"></timeline-clip-icon>
+    <timeline-marker-icon *ngSwitchCase="'marker'" [inheritColor]="inheritColor"></timeline-marker-icon>
+    <unclassified-icon *ngSwitchCase="'unclassified'" [inheritColor]="inheritColor"></unclassified-icon>
+    <video-clip-icon *ngSwitchCase="'video_clip'" [inheritColor]="inheritColor"></video-clip-icon>
+    <video-icon *ngSwitchCase="'video'" [inheritColor]="inheritColor"></video-icon>
+</span>
